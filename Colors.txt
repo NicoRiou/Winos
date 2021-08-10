@@ -1,0 +1,4 @@
+Couleurs dominantes pour la page Winos:
+#ffffff pour la majeure partie en blanc
+#9e1221b pour les titres et boutons en rouge bordeaux
+#f3f3f3 pour le reste en gris clair
