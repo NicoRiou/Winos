@@ -25,7 +25,8 @@ body > header {
       height: 25px; */
     /* color: rgb(63, 63, 63); */
     color: rgb(50, 50, 121);
-    background: #fff;
+    /*background: #fff;*/
+    width: auto;
   }
 
   img {
@@ -65,8 +66,8 @@ body > header {
     display: block;
     padding: 5px 15px;
     text-decoration: none;
-    color: rgb(63, 63, 63);
-  }
+    color: #9e121b ;
+   }
 
   nav a:hover {
     background: rgb(63, 63, 63);
