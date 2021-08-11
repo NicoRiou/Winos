@@ -2,15 +2,78 @@ html,body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, Sans-serif;
-  background-color: #ffffff;
+  background-color: #ffffff; 
 }
-.dummy_page {
+
+img {
+  text-align: left;
+}
+
+/* STYLES SPECIFIC TO HEADER */
+.fullwidth {
   height: 200px;
   width: 100%;
-  background-color: #f3f3f3;
+  position: relative;
+  height: auto;
+  background-color: #9e121b;
   text-align: center;
   box-sizing: border-box;
   padding: 60px 0px;
+}
+
+.fullwidth .col {
+  width: 150px;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0px 20px 20px 20px;
+}
+
+.fullwidth  .col ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.fullwidth  .col ul li {
+  color: #999999;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+}
+
+.fullwidth  .col ul li a{
+  color: #ffffff;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  text-decoration: none;
+}
+
+.fullwidth .col ul li:hover {
+  color: #ffffff;
+  transition: .1s;
+  -webkit-transition: .1s;
+  -moz-transition: .1s;
+}
+
+.fullwidth .col ul li a:hover {
+  color: #ffffff;
+  transition: .1s;
+  -webkit-transition: .1s;
+  -moz-transition: .1s;
 }
 /* STYLES SPECIFIC TO FOOTER  */
 .footer {
@@ -96,6 +159,13 @@ html,body {
   -webkit-transition: .1s;
   -moz-transition: .1s;
 }
+
+.footer .col ul li a:hover {
+  color: #ffffff;
+  transition: .1s;
+  -webkit-transition: .1s;
+  -moz-transition: .1s;
+}
 .clearfix {
   clear: both;
 }
@@ -118,15 +188,24 @@ html,body {
   .footer .col {
     width: 33%;
   }
+  .header .col {
+    width: 33%;
+  }
   .footer .col h1 {
     font-size: 14px;
   }
   .footer .col ul li {
     font-size: 13px;
   }
+  .header .col ul li {
+    font-size: 13px;
+  }
 }
 @media only screen and (max-width: 500px) {
     .footer .col {
+      width: 50%;
+    }
+    .header .col {
       width: 50%;
     }
     .footer .col h1 {
@@ -135,9 +214,15 @@ html,body {
     .footer .col ul li {
       font-size: 13px;
     }
+    .header .col ul li {
+      font-size: 13px;
+    }
 }
 @media only screen and (max-width: 340px) {
   .footer .col {
+    width: 100%;
+  }
+  .header .col {
     width: 100%;
   }
 }
