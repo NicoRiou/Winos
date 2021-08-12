@@ -85,7 +85,14 @@ body > header {
     list-style: none;
   }
 
-  .bg,
+  .bg{
+    background-color: #9e121b;
+    border: 1px solid #f3f3f3;
+    color:#ffffff
+  }
+
+
+
   header,
   footer {
     background-color: #9e121b;
