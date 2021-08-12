@@ -89,25 +89,27 @@ body > header {
   header,
   footer {
     background-color: #9e121b;
-    border: 1px solid #f3f3f3
+    border: 1px solid #f3f3f3;
+    overflow:hidden;
   }
 
   .footer {
     width: 100%;
     position: relative;
     height: auto;
+    background-color: #9e121b !important;
   }
 
-   .footer .row{
-    width: 190px;
+  .footer .row {
+    width: 150px;
     height: auto;
-    float: left;
+    float:left;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     padding: 0px 20px 20px 20px;
- /*    background-color: #9e121b; */
   }
+
   .footer .row h2 {
     margin: 0;
     padding: 0;
@@ -115,12 +117,12 @@ body > header {
     font-size: 12px;
     line-height: 17px;
     padding: 20px 0px 5px 0px;
-    color: #000000;
+    color: #ffffff;
     font-weight: normal;
     text-transform: uppercase;
     letter-spacing: 0.250em;
   }
-  
+
   .footer .row h2 a{
     margin: 0;
     padding: 0;
@@ -128,13 +130,13 @@ body > header {
     font-size: 12px;
     line-height: 17px;
     padding: 20px 0px 5px 0px;
-    color: #000000;
+    color: #ffffff;
     font-weight: normal;
     text-transform: uppercase;
     letter-spacing: 0.250em;
     text-decoration: none;
   }
-  
+
   .footer .row ul {
     list-style-type: none;
     margin: 0;
@@ -151,7 +153,7 @@ body > header {
     -webkit-transition: .2s;
     -moz-transition: .2s;
   }
-  
+
   .footer .row ul li a{
     color: #999999;
     font-size: 14px;
@@ -177,8 +179,8 @@ body > header {
     transition: .1s;
     -webkit-transition: .1s;
     -moz-transition: .1s;
-  } 
-
+  }
+  
 
   .card {
     background: rgb(240, 240, 240);
