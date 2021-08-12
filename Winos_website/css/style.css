@@ -28,6 +28,24 @@ body > header {
     width: auto;
   }
 
+  #client {
+    position: auto;
+    /* width: 25px;
+      height: 25px; */
+    /* color: rgb(63, 63, 63); */
+    /*background: #fff;*/
+    width: 50px;
+  }
+
+  #cart {
+    position: auto;
+    /* width: 25px;
+      height: 25px; */
+    /* color: rgb(63, 63, 63); */
+    /*background: #fff;*/
+    width: 50px;
+  }
+
   img {
     width: 100%;
   }
