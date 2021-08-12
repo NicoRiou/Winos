@@ -19,6 +19,18 @@ let inscription = (event) => {
         })
     }
 }
+
+
+let datedenaissance = document.getElementById('datedenaissance');
+
+console.log(datedenaissance);
+
+function getAge(datedenaissance) { 
+    var diff = Date.now() - date.getTime();
+    var age = new Date(diff); 
+    return Math.abs(age.getUTCFullYear() - 1970);
+}
+
 //events
 //ecouteur d'evenement sur le bouton d'envoi ('click', valider)
 forminscript.addEventListener('submit', inscription);
