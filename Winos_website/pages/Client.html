@@ -25,7 +25,7 @@
                     <li><a href="./Blog.html">Blog</a></li>
                     <li><a href="./Espace_client.html">Espace client</a></li>
                     <li><div>
-                        <img src="../images/client.png" id="client">
+                        <a href ="./Client.html"><img src="../images/client.png" id="client"></a>
                     </div></li>
                     <li><div>
                         <img src="../images/cart.png" id="cart">
@@ -49,10 +49,81 @@
     <div class="fullwidth">
         <ul>
             <li>Déjà client ?</li>
-            <li>Connectez-vous</li>
-            <li>form1</li>
-            <li>ou inscrivez-vous:</li>
-            <li>form2</li>
+            <p></p>
+            <li>Connectez-vous:</li>
+            <li>
+                <form name="form" action="#" method="get" class="container" id="connexionform">
+                    <div class="row">
+                        <div class="col-12 col-md-6 form-control">
+                            <label for="email">Email *</label>
+                            <input type="text" name="email" id="email">
+                            <div class="erreur">Champs obligatoire</div>
+                        </div>
+                        <div class="col-12 col-md-6 form-control motdepasse">
+                            <label for="motdepasse">Mot de passe *</label>
+                            <input type="text" name="motdepasse" id="motdepasse">
+                            <div class="erreur">Champs obligatoire</div>
+                        </div>
+                        <div class="col-12 form-line">
+                            <input type="submit" name="connexion" value="Connexion">
+                        </div>
+                    </div>
+                </form>
+            </li>
+
+            <p></p>
+            <li>Ou inscrivez-vous:</li>
+            <li>
+                <form name="form" action="#" method="get" class="container" id="inscriptionform">
+                    <div class="row">
+                        <div class="col-12" id="radio">
+                            <input type="radio" name="civilite" value="Mr" id="man">
+                            <label for="man">Monsieur</label>
+                            <input type="radio" name="civilite" value="Mme" id="woman">
+                            <label for="woman">Madame *</label>
+                            <div class="erreur">Champs obligatoire</div>
+                        </div>
+                        <div class="col-12 col-md-6 form-control">
+                            <label for="nom">Nom *</label>
+                            <input type="text" name="nom" id="nom">
+                            <div class="erreur">Champs obligatoire</div>
+                        </div>
+                        <div class="col-12 col-md-6 form-control prenom">
+                            <label for="prenom">Prénom *</label>
+                            <input type="text" name="prenom" id="prenom">
+                            <div class="erreur">Champs obligatoire</div>
+                        </div>
+
+                        <div class="col-12 col-md-6 form-control prenom">
+                            <label for="datedenaissance">Date de naissance *</label>
+                            <input type="date" name="datedenaissance" id="datedenaissance">
+                            <div class="erreur">Champs obligatoire</div>
+                        </div>
+
+                        <div class="col-12 col-md-6 form-control">
+                            <label for="email">Email *</label>
+                            <input type="text" name="email" id="email">
+                            <div class="erreur">Champs obligatoire</div>
+                        </div>
+                        <div class="col-12 col-md-6 form-control">
+                            <label for="tel">Téléphone *</label>
+                            <input type="text" name="tel" id="tel">
+                            <div class="erreur">Champs obligatoire</div>
+                        </div>
+
+                        <div class="col-12 form-line">
+                            <input type="checkbox" name="optin" id="optin"></input>
+                            <label for="optin">Cochez cette case pour recevoir nos offres partenaires</label>
+                        </div>
+                        <div class="col-12 form-line">
+                            <input type="submit" name="inscription" value="Inscription">
+                        </div>
+                    </div>
+                </form>
+
+
+
+            </li>
         </ul>
     </div>
 
@@ -99,5 +170,7 @@
         </div>
     </footer>
     <script src="../js/nav.js"></script>
+    <script src="../js/valid_connexion.js"></script>
+    <script src="../js/valid_inscription.js"></script>
 </body>
 </html>
