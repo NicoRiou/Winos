@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/grille.css">
+	<link rel="stylesheet" href="../css/produit.css">
 </head>
 
 <body>
@@ -38,21 +39,44 @@
     </header>
 
 
+    <!-- PAGE PRODUIT -->
+
     <div class="fullwidth t-center">
         <h1>fonction</h1>
         <p>contact</p>
     </div>
 
-    <div class="fullwidth bg">
-        <h2>Nos vins</h2>
+    <div class="fullwidth produit pad200">
+
+        <div class="imgprod"><img src="../images/villa.jpg"></div>
+        <div class="descrip">
+            <div><h2>Chateau Perdu</h2></div>
+            <div class="nom">Villageoise Vin rouge</div>
+            <div>AOP Fagot</div>
+            <div class ="Txtdescrip">Un vent de Gourmandise souffle sur nos papilles !</div>
+            <div class="produit">
+                <div class="margopt"><h2>Gouts :</h2><p>Très boisé, voir trop</div>
+                <div class="margopt"><h2>Accords :</h2><p>Chips et Surimi</div>
+            </div>
+        </div>
+
+        <div class="command">
+        <div class="prix">9.90€</div>
+        <div>la bouteille</div>
+        <div class="margtop">Quantité</div>
+        <div class="margtop"><input type="text" id="quant" name="quantite" required minlength="1" maxlength="2" size="10" value="1"></div>
+        <div class="margtop"><input class="favorite styled" type="button" value="Ajouter au panier"></div>
+        <div class="margtop"><input type="checkbox" id="stock" name="stock" checked> <label for="stock">En stock !</label></div>
+        </div>
     </div>
-    <div class="fullwidth">
-        <ul>
-            <li>item 1</li>
-            <li>item 2</li>
-            <li>item 3</li>
-            <li>item plus</li>
-        </ul>
+
+    <div class="avis">
+        <div><h2>L'avis de Gégé</h2></div>
+        <div class="produit">
+            <div class="dimphoto"><img src="../images/avis.jpg"></div>
+            <div class="textavis">De la bonne Piquette comme on les aime ! Qui tâche et qui saoule !</div>
+        </div>
+
     </div>
 
 
