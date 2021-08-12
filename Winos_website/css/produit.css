@@ -1,0 +1,70 @@
+.produit {
+    display:flex;
+  }
+
+  .pad200 {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+  }
+
+  .margopt {
+    margin-left: 50px;
+  }
+
+  .imgprod img{
+    height: auto;
+    width: auto;
+  }
+
+  .descrip {
+    padding-left: 10px;
+    border: 1px solid #000000 ;
+    background-color: #f3f3f3;
+    width: 400px;
+  }
+
+  .avis {
+    border: 1px solid #000000 ;
+    background-color: #f3f3f3;
+    width: 700px;
+    margin-left: 200px ;
+    margin-bottom: 100px ;
+    padding-left: 10px;
+  }
+
+  .textavis {
+    margin-left: 20px;
+    font-size:x-large;
+  }
+
+  .dimphoto {
+    /* height: 20%;
+    width: 20%; */
+  }
+
+  h2 {
+    color: #9e121b;
+  }
+
+  .nom {
+    font-weight: bold;
+  }
+
+  .Txtdescrip {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .command {
+    margin-left: 100px;
+    text-align: center;
+  }
+
+  .prix {
+    font-weight: bold;
+    font-size:xx-large;
+  }
+
+  .margtop {
+    margin-top: 30px;;
+  }
